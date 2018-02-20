@@ -1,0 +1,185 @@
+<html lang="en">
+	<head>
+		<title>My Blog</title>
+		<style>
+			body { font-family: Helvetica, Arial, sans-serif; margin: 20px; }
+			#alert { border: 1px solid black; background: yellow; padding: 5px; display: none;}
+			table { border-collapse: collapse; }
+			td, th { border: 1px solid black; text-align: middle; padding: 4px; }
+		</style>
+	</head>
+	<body>
+		<div role="navigation">
+			<h1>Links About the Blog</h1>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">Archive</a></li>
+				<li><a href="index.html">About</a></li>
+			</ul>
+		</div>
+		<div role="main">
+			<h1>The Power of Poke</h1>
+			
+			<p>In video games, the concept of poke damage is a common thread across many games that offer combat. While this damage may seem very weak, given the ammount of damage it does per instance seems negligible, it can easily add up over time. Disregarding this massive source is a dangerous situation when utilized to the fullest.</p>
+			
+			<h2>Introduction</h2>
+			
+			<p>For those unaware of the concept or just those who haven't heard of it, poke damage refers to damage that is given without the intent to commit to a fight. It's the game equivalent of quite literally poking someone, before stepping back before the receiver of the poke gets after you for annoying them. This damage usually is not very much, but easily will annoy and harass the foe before you engage into a fight. A good way to look at poke is to compare it to the opposite of direct damage. The two both have advantages, but knowing which can be effective gives you a step up above your foe.
+			<br><br>
+			For the comparisons, I'll use 2 characters from Heroes of the Storm, Blizzard's Multiplayer Online Battle Arena (MOBA).</p>
+			
+			<p><img src="https://blzmedia-a.akamaihd.net/heroes/media/wallpaper/heroes_1366x768.jpg" alt="A wallpaper for the game, Heroes of the Storm." width="840" height="480"></p>
+			
+			<p>Image credit: <a href="https://us.battle.net/heroes/en/media/">Blizzard Entertainment</a>.</p>
+			
+			<p>The characters I will use are Valla and Lunara.</p>
+			
+			<h2>Valla</h2>
+			
+			<p><img src="https://images3.alphacoders.com/244/244377.jpg" alt="A wallpaper depicting the hero, Valla." width="840" height="480"></p>
+			
+			<p>Image credit: <a href="https://wall.alphacoders.com/big.php?i=244377">cosmorider87</a>.</p>
+			
+			<p>Valla is one of the game's highly iconic damage dealers. While not having much HP at any stage of the game, her damage is hard to outclass when she gets going. Her damage is all frontloaded, doing damage directly and burning through the enemy's health should they not be able to deal with her.
+			<br><br>
+			Valla's damage is based on a stacking mechanic which can increase her damage per hit by up to 80%. The data values are here in this table, all for level 1:</p>
+			
+			<table>
+				<tr>
+					<th>Stacks</th>
+					<th>Damage Per Hit</th>
+					<th>Damage Per Second</th>
+				</tr>
+				<tr>
+					<td>0</td>
+					<td>78</td>
+					<td>130.26</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>84.24</td>
+					<td>140.68</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>90.48</td>
+					<td>151.10</td>
+				</tr>
+				<tr>
+					<td>
+						3
+					</td>
+					<td>
+						96.72
+					</td>
+					<td>
+						161.52
+					</td>
+				</tr>
+				<tr>
+					<td>
+						4
+					</td>
+					<td>
+						102.96
+					</td>
+					<td>
+						171.94
+					</td>
+				</tr>
+				<tr>
+					<td>
+						5
+					</td>
+					<td>
+						109.2
+					</td>
+					<td>
+						182.36
+					</td>
+				</tr>
+				<tr>
+					<td>
+						6
+					</td>
+					<td>
+						115.44
+					</td>
+					<td>
+						192.78
+					</td>
+				</tr>
+				<tr>
+					<td>
+						7
+					</td>
+					<td>
+						121.68
+					</td>
+					<td>
+						203.21
+					</td>
+				</tr>
+				<tr>
+					<td>
+						8
+					</td>
+					<td>
+						127.92
+					</td>
+					<td>
+						213.63
+					</td>
+				</tr>
+				<tr>
+					<td>
+						9
+					</td>
+					<td>
+						134.16
+					</td>
+					<td>
+						224.05
+					</td>
+				</tr>
+				<tr>
+					<td>
+						10
+					</td>
+					<td>
+						140.4
+					</td>
+					<td>
+						234.468
+					</td>
+				</tr>
+			</table>
+			<p>Of course, raw numbers do not make a whole lot of sense, but consider that Valla has a health pool of 1324 at level 1. Given this, if you account for her gaining stacks as she goes, she can take herself out in 12 attacks, or 13 if you count the tiny health regen. That isn't very long, especially with how long fights last in these kinds of games. This should show how much impact direct damage can do, and that's before abilites are mentioned, which only add to the value that these numbers hold.</p>
+			<h2>Lunara<h2>
+			
+			
+			
+			
+		</div>
+		<div role="comments">
+			<h1>Comments</h1>
+				<div role="alert" id="alert">Sorry! Posting comments is currently disabled.</div>
+				<div>
+					<p><label for="name">
+						Your name:
+					</label>
+					<input id="name"></p>
+					<p><label for="email">
+						Your email address:
+					</label>
+					<input id="email"></p>
+					<p><label for="comments">
+						Your comment:
+					</label>
+					<input id="comments"></p>
+					<p><button id="commentButton">Submit comment</button></p>
+				</div>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</body>
+</html>
